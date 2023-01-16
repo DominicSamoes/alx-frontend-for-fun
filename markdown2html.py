@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""
+'''
     Script changes Markdown to HTML
-"""
+'''
 
 import sys
 from os import path
