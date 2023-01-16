@@ -2,8 +2,8 @@
 '''
     Script changes Markdown to HTML
     
-    First argument is the name of the Markdown file
-    Second argument is the output file name
+    First arg is the name of the Markdown file
+    Second arg is the output file name
 '''
 
 import sys
