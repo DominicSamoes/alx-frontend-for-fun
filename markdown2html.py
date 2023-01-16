@@ -3,12 +3,12 @@
     Script changes Markdown to HTML
 """
 
-if __name__ == "__main__":
-    import sys
-    from os import path
-    import re
-    import hashlib
+import sys
+from os import path
+import re
+import hashlib
 
+if __name__ == "__main__":
     if len(sys.argv) < 2:
         sys.stderr.write("Usage: ./markdown2html.py README.md README.html\n")
         exit(1)
@@ -17,5 +17,4 @@ if __name__ == "__main__":
         sys.stderr.write("Missing " + sys.argv[1] + '\n')
         exit(1)
 
-    else:
-        exit(0)
+    exit(0)
