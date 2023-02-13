@@ -1,0 +1,16 @@
+/* Using 2 Sass variables */
+$textcolor: #3D3D3D;
+$bkgdcolor: #6D6D6D;
+
+body {
+    color: $textcolor;
+    background-color: $bkgdcolor;
+}
+
+p {
+    color: $textcolor;
+}
+
+h2 {
+    background-color: $bkgdcolor;
+}
