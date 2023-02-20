@@ -1,7 +1,8 @@
 /* Media query #1 */
-/* Media query #1 */
+
 hi {
     font-size: 20px;
+
     @media screen and (max-width: 960px) {
         font-size: 18px;
     }
