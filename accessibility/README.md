@@ -1,4 +1,4 @@
-# Sass & Scss
+# Accessibility
 
 ## Description
 
